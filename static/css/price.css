@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 ul.camp li {
 	list-style-type: disc;
 	line-height: 40px;
