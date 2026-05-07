@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}キャンプ飯＆レンタル | ふぉれすと{% endblock %}
+
+{% block content %}
+<!-- CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/rental.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/page.css') }}">
+
+<!-- JS -->
+<script src="{{ url_for('static', filename='js/script_r.js') }}" defer></script>
+
+<main class="page qa_main">
+    <section class="main_img qa">
+        <h1>キャンプ飯＆レンタル
+            <span>Food & Drink & Rental</span>
+        </h1>
+    </section>
+    <!-- 追加終わり -->
+    <!-- <h1>Fruit Juice</h1> -->
+    <section class="page_content">
+        <div id="menu"></div>
+        <hr style="margin: 40px 0;">
+    </section>
+</main>
+<!--
+</body>
+-->
+
+{% endblock %}
