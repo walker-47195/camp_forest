@@ -34,7 +34,7 @@ header {
     background: #fff;
     z-index: 1000;
     height: 50px;
-    background: rgba(144, 238, 144, 0.15);
+    background: rgba(144, 238, 144, 0);
 }
 
 .container {
