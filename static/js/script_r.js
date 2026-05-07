@@ -150,7 +150,7 @@ const lists = [
 for (let i = 0; i < lists.length; i++) {
   const name = lists[i].name;
   const img = lists[i].img;
-  const price = lists[i].price.toLocaleString();
+  const price = lists[i].price.toLocaleString('ja-JP');
   // 追加分:定数名price数値3桁区切表示(例:x,xxx円)
   const lines = lists[i].lines;
   //const content = `<div><img src="/static/image/${img}" alt=""><h2>${name}</h2><p>${price}円</p>${lines}</div>`;
